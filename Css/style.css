@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap');
+
+:root{
+    --primary: #3DCFD3;
+    --dark: #161616;
+    --pure: #ffffff;
+    --ternary: #898989;
+    --light: #F2F2F2;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    background-color: var(--light);
+    font-family: "Poppins", sans-serif;
+}
+
+.header{
+    background-color: var(--dark);
+    clip-path: polygon(100% 0, 100% 100%, 80% 82%, 0 100%, 0 0);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.navbar-content{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-content a{
+    color: var(--pure);
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.navbar-content a:hover{
+    color: var(--primary);
+}
+
+.btn-right-contact{
+    background-color: var(--primary);
+    border: none;
+    color: var(--dark);
+    padding: 8px 30px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all .3s ease;
+}
+
+.btn-right-contact:hover{
+    background-color: transparent;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--pure);
+}
+
+.content-left img{
+    display: flex;
+    position: relative;
+    left: 10px;
+}
+
+.content-right-top-heading{
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.content-right-main-heading{
+    margin-bottom: 0.5rem;
+}
+
+.content-right-main-heading-span{
+    color: var(--primary);
+}
+
+.content-right-para{
+    margin-bottom: 1rem;
+}
+
+.content-right-sign-text{
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 5.2rem;
+    color: var(--primary);
+}
+
+#projects{
+    margin-top: 10%;
+}
+
+#projects > h1{
+    color: var(--dark);
+    margin-left: 100px;
+    font-weight: 600;
+}
+
+.card1-2{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.card{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.card-15{
+    margin: 0 auto;
+}
+
+.card-image{
+    background-color: var(--light);
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.card-img{
+    width: 80%;
+}
+
+.card-bottom{
+    background-color: var(--light);
+    width: 80%;
+    height: 20%;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-heading{
+    color: var(--dark);
+}
+
+.blue{
+    color: var(--primary);
+}
+
+.white{
+    color: var(--pure);
+}
+
+.contact{
+    margin-top: 5%;
+    height: 20vh;
+    background-color: var(--pure);
+    color: var(--dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media{
+    margin-top: 0.7%;
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
